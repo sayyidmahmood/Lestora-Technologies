@@ -741,7 +741,7 @@
      border:solid 1px #e6e6e6;
      background:#fff;
      padding:30px;
-     height: 200px;
+     height: 225px;
     
      margin-bottom: 30px;
      transition: all 0.5s ease;
@@ -1664,7 +1664,7 @@
 }
  section#counter.index-2 .counter-column .counter_content{
      float: left;
-     margin-left:0px;
+     margin-left:0px;padding-top: 10px;
      width:auto;
 }
  section#counter.index-2 .counter-column .counter_content h2{

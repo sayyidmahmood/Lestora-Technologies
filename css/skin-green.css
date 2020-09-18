@@ -7,10 +7,10 @@
      background: #529e19;
 }
  form .form-group button[type="submit"]{
-     background: #529e19;
+     background: #f5d418;
 }
  .navbar-nav .nav-item.active a{
-     color:#529e19;
+     color:#f5d418;
 }
  .navbar-nav .nav-item.active a.dropdown-toggle::after{
      color:#529e19;
@@ -27,7 +27,7 @@
      width:25px;
      height:2px;
      vertical-align: middle;
-     background-color: #529e19;
+     background-color: #f5d418;
      margin: 5px 0;
 }
  #slider .tp-caption.heading span{
@@ -37,7 +37,7 @@
      background:#529e19;
 }
  section#portfolio .sort-btn.active, section#portfolio .sort-btn:hover {
-     background:#529e19;
+     background:#f5d418;
 }
  section#testimonials .testimonials-slider .item .client_detail .name_designation h5{
      color:#529e19;
@@ -59,10 +59,10 @@
      color:#529e19;
 }
  .separator ul li{
-     background:#529e19;
+     background:#f5d418;
 }
  .separator.left-align ul li{
-     background:#529e19;
+     background:#f5d418;
 }
  .pagination .page-item.active .page-link, .pagination .page-link:hover{
      background:#529e19 !important;
@@ -107,7 +107,7 @@
      font-weight: 500;
 }
  .project .label-bg {
-     background: #529e19;
+     background: #f5d418;
 }
  .blog_card .post-detail .posted_by a{
      color:#529e19;
@@ -117,7 +117,7 @@
      color: #529e19;
 }
  footer .contact_info i{
-     color:#529e19;
+     color:#f5d418;
 }
  footer .newsletter h4{
      color:#529e19;
@@ -230,7 +230,7 @@ section#blog-post-list .post-detail .description a:hover, section#blog-with-side
      font-weight:600;
 }
  .project .zoom{
-     background: rgba(82, 158, 25, 0.9);
+     background: rgba(245, 212, 24, 1);
 }
  .blog_card .post-img .posted_on {
      background: rgba(82, 158, 25, 0.9);
@@ -245,7 +245,7 @@ section#blog-post-list .post-detail .description a:hover, section#blog-with-side
      color: #529e19;
 }
  section#contact-us .info ul li .icon i:before{
-     color:#529e19;
+     color:#f5d418;
 }
  section#contact-us .form-header{
      background:#f5d418;

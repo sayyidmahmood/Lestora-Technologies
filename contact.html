@@ -33,9 +33,13 @@
   <!-- ====== Preloader ====== -->
       <div class="preloader js-preloader flex-center">
 			<div class="dots">
-				<div class="dot"></div>
-				<div class="dot"></div>
-				<div class="dot"></div>
+        <div class="dot"><span>L</span></div>
+				<div class="dot"><span>e</span></div>
+        <div class="dot"><span>s</span></div>
+        <div class="dot"><span>t</span></div>
+        <div class="dot"><span>o</span></div>
+        <div class="dot"><span>r</span></div>
+        <div class="dot"><span>a</span></div>
 			</div>
 		</div>
 
@@ -125,7 +129,7 @@
                       </div>
                       <div class="content">
                         <div class="label">Phone No.</div>
-                        <div class="value">0123-456-789, 0123-456-789</div>
+                        <div class="value"><a href="tel:+91 9745778777" style="color: #797979;"> +91 9745778777</a></div>
                       </div>
                     </li>
 
@@ -135,7 +139,7 @@
                       </div>
                       <div class="content">
                         <div class="label">Email Id</div>
-                        <div class="value">info@bizler.com</div>
+                        <div class="value"><a href="mailto:hello@lestora.com" style="color: #797979;" > hello@lestora.com</a></div>
                       </div>
                     </li>
 
@@ -145,7 +149,7 @@
                       </div>
                       <div class="content">
                         <div class="label">Address</div>
-                        <div class="value">123, Street Name, City Name, State Name, Country Name, Pin Code : 123456 </div>
+                        <div class="value">Happy Building, 2nd, Puthiyara, Kozhikode, Kerala 673004</div>
                       </div>
                     </li>
                   </ul>
@@ -164,27 +168,27 @@
               <p>It would be great to hear from you! If you got any questions</p>
           </div>
           <div class="contact-form">
-            <form action="https://wpshopmart.com/index.html">
+            <form id="submit-form">
               <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
                   <div class="form-group">
-                    <input value="" type="text" placeholder="Full Name" />
+                    <input value="" type="text" id="fname" name="name" placeholder="Full Name" required />
                   </div>
                   <div class="form-group">
-                    <input value="" type="text" placeholder="Email" />
+                    <input value="" type="text" id="email" name="email" placeholder="Email" required />
                   </div>
                   <div class="form-group">
-                    <input value="" type="text" placeholder="Phone No." />
+                    <input value="" type="text" id="phone" name="phone" placeholder="Phone No." required />
                   </div>
                   <div class="form-group">
-                    <input value="" type="text" placeholder="Subject" />
+                    <input value="" type="text" id="msg_subject" name="sub" placeholder="Subject" required />
                   </div>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 form-group">
-                  <textarea placeholder="Message"></textarea>
+                  <textarea placeholder="Message" id="message" name="message" required ></textarea>
                 </div>
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-group text-center mar-none">
-                  <button type="submit">Send Message <i class="flat flaticon-plane"></i></button>
+                  <button type="submit" id="submit">Send Message <i class="flat flaticon-plane"></i></button>
                 </div>
               </div>
             </form>
@@ -199,7 +203,7 @@
 <!-- ====== Location Map Start ====== --> 
 
   <div id="map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2946.9024756292984!2d-82.94958102059759!3d42.38722399141172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8824d5b348edb015%3A0xdaee97c5759dff87!2sMack+Market!5e0!3m2!1sen!2sin!4v1543833407272" style="border:0" allowfullscreen></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.0848559240553!2d75.78678341480506!3d11.25516799199773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba659e8562a6437%3A0x1493424894426f8a!2sLestora%20Technologies!5e0!3m2!1sen!2sin!4v1599576807905!5m2!1sen!2sin" style="border:0" allowfullscreen></iframe>
   </div>
 
 <!-- ====== Location Map End ====== --> 
@@ -207,30 +211,22 @@
 <!-- ====== Footer Start ====== -->
 <footer class="home index-3 gray-bg">
   <div class="container">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
       <div class="row row-safari">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 about">
           <div class="logo"><img src="img/web-logo-01.png"  /></div>
-          <div class="detail">
-            <p>Lestora Technologies well known group of companies come along way with its modest beginning some years ago, Lestora now a name to be reckoned with the countries IT Infrastructure Services & Solutions. We are creative and skilled experience in Software Development, Branding, Cyber Security search engine optimization, social media marketing and we are keen in High-Intent Lead Generation through our diversified advertising strategies.</p>
-          </div>
+          
            </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 latest-news">
-          <div class="section_heading">Latest <span>News</span></div>
+
+          
           <div class="post-item">
-            <div class="post-img"> <img src="img/recent-post-thumb-1.jpg" alt="post" /> </div>
-            <div class="post-content">
-              <p><a href="blog-detail.html">Lorem Ipsum has been the industry's standard  dummy text ever since the 1500s.</a></p>
-              <div class="post-status"> 05/10/2018 </div>
+            <div class="detail">
+              <p><strong>Lestora Technologies</strong> well known group of companies come along way with its modest beginning some years ago, Lestora now a name to be reckoned with the countries IT Infrastructure Services & Solutions. We are creative and skilled experience in Software Development, Branding, Cyber Security search engine optimization, social media marketing and we are keen in High-Intent Lead Generation through our diversified advertising strategies.</p>
             </div>
+          
           </div>
-          <div class="post-item">
-            <div class="post-img"> <img src="img/recent-post-thumb-1.jpg" alt="post" /> </div>
-            <div class="post-content">
-              <p><a href="blog-detail.html">when an unknown printer took a galley of type and scrambled it to make a type.</a></p>
-              <div class="post-status"> 06/10/2018 </div>
-            </div>
-          </div>
+          
         </div>
       </div>
     </div>
@@ -242,7 +238,7 @@
             <div class="icon"> <i class="flat flaticon-facebook-placeholder-for-locate-places-on-maps"></i> </div>
             <div class="detail">
               <h5>Address</h5>
-              <div class="content"> <span class="foothead">Head Office :</span><span class="value"> Happy Building, 2nd, Puthiyara,
+              <div class="content"> <span class="value"> Happy Building, 2nd, Puthiyara,
                 Kozhikode, Kerala 673004 </span> </div>
             </div>
           </div>
@@ -250,7 +246,7 @@
             <div class="icon"> <i class="flat flaticon-phone-receiver"></i> </div>
             <div class="detail">
               <h5>Call Us On</h5>
-              <div class="content">  <span class="foothead">Main Office :</span><span class="value"><a href="javascript:void(0)" title="0123-456-789"> +91 9745778777</a></span> <br />
+              <div class="content">  <span class="value"><a href="tel:+91 9745778777"> +91 9745778777</a></span> <br />
                </div>
             </div>
           </div>
@@ -258,36 +254,36 @@
             <div class="icon"> <i class="flat flaticon-mail-black-envelope-symbol"></i> </div>
             <div class="detail">
               <h5>Mail Us On</h5>
-              <div class="content"><span class="foothead">Customer Support : </span><span style="color: black;">hello@lestora.com</span></div>
+              <div class="content"><span style="color: black;"><a href="mailto:hello@lestora.com" > hello@lestora.com</a></span></div>
             </div>
           </div>
           <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12 column social">
             <div class="icon"> <i class="flat flaticon-share"></i> </div>
             <div class="detail">
               <h5>Follow Us On</h5>
-              <div class="content"> <a href="javascript:void(0)" title="Facebook" ><i class="flat flaticon-facebook-logo"></i></a> 
+              <div class="content"> <a href="https://www.facebook.com/lestoratechnologies/" title="Facebook" ><i class="flat flaticon-facebook-logo"></i></a> 
              
-                 <a href="javascript:void(0)" title="Instagram" ><i class="flat flaticon-instagram"></i></a> </div>
+                 <a href="https://www.instagram.com/lestoratechnologies/" title="Instagram" ><i class="flat flaticon-instagram"></i></a> </div>
             </div>
           </div>
         </div>          
           </div>
      </div>
   </div>
-  <div class="bottom">
+  <div class="bottom" style="background: #f5d418;">
     <div class="container">
       <div class="navigation">
         <ul>
           <li><a href="index.html" title="Homepage">Home</a></li>
           <li class="separator-pipesign white"></li>
-          <li><a href="about-us-3.html" title="About Us">About Us</a></li>
+          <li><a href="#about-us" title="About Us">About Us</a></li>
           <li class="separator-pipesign white"></li>
-          <li><a href="services-3.html" title="Services">Services</a></li>
+          <li><a href="#services" title="Services">Services</a></li>
          
           <li class="separator-pipesign white"></li>
-          <li><a href="portfolio-2-column.html" title="Pages">Portfolio</a></li>
+          <li><a href="#" title="Pages">Portfolio</a></li>
           <li class="separator-pipesign white"></li>
-          <li><a href="contact-us-1.html" title="Contact Us">Contact Us</a></li>
+          <li><a href="contact.html" title="Contact Us">Contact Us</a></li>
         </ul>
       </div>
     </div>
@@ -299,18 +295,39 @@
             <span class="separator-pipesign white"></span>
             All Rights Reserved
             <span class="separator-pipesign white"></span>
-            <a href="https://www.templateshub.net">Lestora Technologies.</a></div>
+            <a href="index.html">Lestora Technologies.</a></div>
           <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 text-right"> <a href="javascript:void(0)">Privacy Policy</a>
             <span class="separator-pipesign white"></span>
             <a href="javascript:void(0)">Terms &amp; Conditions</a>
             <span class="separator-pipesign white"></span>
-            <a href="faq.html">FAQ's</a> </div>
+            <a href="javascript:void(0)">FAQ's</a> </div>
         </div>
       </div>
     </div>
   </div>
 </footer>
 <!-- ====== Footer End ====== --> 
+
+<script>
+  $("#submit-form").submit((e)=>{
+      e.preventDefault()
+      $.ajax({
+          url:"https://script.google.com/macros/s/AKfycbyKkQEuzsNFz3Z-MWPgRlsQsZ1sboYcRAuVBaG-Wyy7QYEE1Q/exec",
+          data:$("#submit-form").serialize(),
+          method:"post",
+          success:function (response){
+              alert("Form submitted successfully")
+              window.location.reload()
+              //window.location.href="https://google.com"
+          },
+          error:function (err){
+              alert("Something Error")
+
+          }
+      })
+  })
+</script> 
+
 <!-- popper js--> 
 <script src="js/popper.min.js"></script> 
 <!-- bootstrap js--> 

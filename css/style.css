@@ -4132,11 +4132,11 @@ footer.index-3 .foothead{
  #map {
      width: 100%;
      height:500px;
-     -webkit-filter: grayscale(100%);
+     /* -webkit-filter: grayscale(100%);
      -moz-filter: grayscale(100%);
      -ms-filter: grayscale(100%);
      -o-filter: grayscale(100%);
-     filter: grayscale(100%);
+     filter: grayscale(100%); */
 }
  #map iframe {
      width: 100%;

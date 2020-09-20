@@ -115,6 +115,14 @@
  .gray-bg{
      background: #f4f4f4;
 }
+.service-bg{
+  
+        /* background:url(../img/light1.png) fixed; */
+        background: #f4f4f4;
+       
+       
+    
+}
  .card_mr_bt {
      margin-bottom: 30px;
 }
@@ -350,7 +358,7 @@
 }
  .section_heading h2{
      font-size: 40px;
-     color:#262626;
+     color:#000000;
      line-height: 1;
 }
  .section_heading .heading_content{
@@ -771,7 +779,7 @@
      color:#fff;
 }
  .service-card:hover .service_detail h5{
-     color:#fff;
+     color:#262626;
 }
  .service-card:hover .service_detail p{
      color:#fff;
@@ -978,6 +986,7 @@
      position: relative;
      overflow:hidden;
 }
+
  div#client .container{
      z-index: 2;
      position: relative;
@@ -1471,7 +1480,8 @@
 }
  section#services.index-2 .service-card{
      border-radius:20px;
-     background:#fff;
+     /* background:#fff; */
+     background: #f5d418;
      border:solid 1px #e0e0e0;
      transition: all 0.5s ease;
 }
@@ -1482,7 +1492,7 @@
      background:#707070;
 }
  section#services .item:hover .service-card h5 a, section#services .item:hover .service-card p{
-     color:#fff;
+     color:#707070;
 }
 /*---- Counter ----*/
  section#work-status.index-2 {

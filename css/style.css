@@ -117,8 +117,8 @@
 }
 .service-bg{
   
-        /* background:url(../img/light1.png) fixed; */
-        background: #f4f4f4;
+        background:url(../img/service.png) fixed;
+        /* background: #f4f4f4; */
        
        
     
@@ -384,7 +384,7 @@
      content:'';
      width: 40px;
      height: 1px;
-     background: #c9c9c9;
+     background: #000000;
      left:0;
      top:61%;
      position: absolute;
@@ -393,7 +393,7 @@
      content:'';
      width: 40px;
      height: 1px;
-     background: #c9c9c9;
+     background: #000000;
      right:0;
      top:61%;
      position: absolute;
